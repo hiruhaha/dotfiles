@@ -11,6 +11,7 @@ alias la='ls -a'
 alias ll='ls -lah'
 alias d='docker'
 alias dc='docker compose'
+alias df='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
